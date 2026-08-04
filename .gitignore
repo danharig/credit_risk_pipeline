@@ -1,0 +1,59 @@
+# Secrets
+.env
+.env.
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Credentials and secrets
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# IDE
+.idea/
+.vscode/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Spark
+.sparkStaging/
+metastore_db/
+derby.log
+*.crc
+
+# LocalStack and Docker data
+localstack_data/
+.localstack/
+docker-data/
+
+# Generated data
+output/
+exports/
+processed/
+gold/
+*.parquet
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# LocalStack
+LocalStack-Data/
+localstack-data/
+.localstack/
+
