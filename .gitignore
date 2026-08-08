@@ -33,9 +33,6 @@ metastore_db/
 derby.log
 *.crc
 
-# Power BI working files
-*.pbix
-
 # Microsoft Office temporary files
 ~$*.docx
 ~$*.xlsx
