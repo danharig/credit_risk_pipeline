@@ -33,6 +33,14 @@ metastore_db/
 derby.log
 *.crc
 
+# Power BI working files
+*.pbix
+
+# Microsoft Office temporary files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
 # LocalStack and Docker data
 localstack_data/
 .localstack/
